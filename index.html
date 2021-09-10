@@ -1,601 +1,456 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Home</title>
-<meta charset="utf-8">
-<meta name = "format-detection" content = "telephone=no" />
-<link rel="icon" href="images/favicon.ico">
-<link rel="shortcut icon" href="images/favicon.ico" />
-<link rel="stylesheet" href="css/animation.css">
-<link rel="stylesheet" href="css/camera.css">
-<link rel="stylesheet" href="css/contact-form.css">
-<link rel="stylesheet" href="css/touchTouch.css">
-<link rel="stylesheet" href="css/style.css">
-  <script src='//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false'></script>
-<script src="js/jquery.js"></script>
-<script src="js/jquery-migrate-1.1.1.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/script.js"></script>
-<script src="js/jquery.ui.totop.js"></script>
-<script src="js/touchTouch.jquery.js"></script>
-<script src="js/isotope.pkgd.js"></script>
-<script src="js/TMForm.js"></script>
-<script src="js/modal.js"></script>
-<script src="js/camera.js"></script>
-<!--[if (gt IE 9)|!(IE)]><!-->
-<script src="js/jquery.mobile.customized.min.js"></script>
-<!--<![endif]-->
-<script>
- $(window).load(function(){
-  $().UItoTop({ easingType: 'easeOutQuart' });
-  $('.gallery .gall_item').touchTouch();
- });
- $(document).ready(function(){
-     jQuery('#camera_wrap').camera({
-      loader: false,
-      pagination: true ,
-      minHeight: '500',
-      thumbnails: false,
-      height: '44.42708333333333%',
-      caption: true,
-      navigation: false,
-      fx: 'mosaic'
-    });
-    $('.gallery .gall-item').touchTouch();
-  });
-</script>
-<!--[if lt IE 8]>
- <div style=' clear: both; text-align:center; position: relative;'>
-   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-   </a>
-</div>
-<![endif]-->
-<!--[if lt IE 9]>
-<script src="js/html5shiv.js"></script>
-<link rel="stylesheet" media="screen" href="css/ie.css">
-<![endif]-->
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>PortfolioPerfect</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Favicon
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
+
+    <!-- Stylesheets
+    ================================================== -->
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 <body>
-<div class="texture">
-<!--==============================
-              header
-=================================-->
-<header id="home" class="page">
-  <div class="navigation single-page-nav">
-    <div class="container_12">
-      <div class="grid_12">
-        <h1 class="logo">
-          <a href="index.html">J. Klimt</a>
-        </h1>
-        <nav>
-          <ul>
-           <li><a href="#home" class="current">Home</a></li>
-           <li><a href="#portfolio">Portfolio</a></li>
-           <li><a href="#skills">Skills</a></li>
-           <li><a href="#experience">Experience</a></li>
-           <li><a href="#testimonials">Testimonials</a></li>
-           <li><a href="#contacts">Contacts</a></li>
-         </ul>
-        </nav>
-      </div>
-    </div>
-  </div>
-  <div id="camera_wrap">
-    <div data-src="images/slide-1.jpg">
-      <div class="caption fadeIn">Your Photographer <span class="bull"></span> Coder  <span class="bull"></span> Designer</div>
-    </div>
-    <div data-src="images/slide-2.jpg">
-      <div class="caption fadeIn">Impressive Designs, Suitable for Cool Projects</div>
-    </div>
-    <div data-src="images/slide-3.jpg">
-      <div class="caption fadeIn">Designs that Work for Your Benefits</div>
-    </div>
-  </div>
-</header>
-<!--=====================
-          Content
-======================-->
-<section class="content">
-  <div class="ic">More Website Templates @ TemplateMonster.com - October 20, 2014!</div>
-  <div class="pad-1">
-    <div class="container_12">
-      <div class="grid_12">
-        <h2>About Me
-          <span>THE BRIEF INTRODUCTION OF MYSELF</span>
-        </h2>
-        <p class="offset__1">Lorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing elit.  Aliquam nibh ante, egestas id dictum a, commodo luctus libero. Praesent faucibus malesuada faucibus</p>
-        <img src="images/page-img_1.jpg" alt="" class="fleft">
-        <div class="extra_wrapper">
-          <div class="text-1">
-            John Klimt
-          </div>
-          <div class="text-2 color1">
-            <a href="#">Photographer</a> &bull;
-            <a href="#">Coder</a> &bull;
-            <a href="#">Designer</a>
-          </div>
-          <p>Follow the link to learn more about this <a rel="nofollow" href="http://blog.templatemonster.com/free-website-templates/" class="color1">goodie</a>.  </p>
-          <p>You can find <a rel="nofollow" href="http://www.templatemonster.com/category/personal-pages/" class="color1">personal pages themes</a> in the same name category at TemplateMonster.com.</p>
-          Lorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing elit.  <br>
-          <a href="#" class="btn">Download Resume</a>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-<section id="portfolio" class="page">
-  <div class="container_12">
-    <div class="grid_12">
-      <h2 class="color2">My Portfolio</h2>
-      <div id="filters" class="button-group">
-        <a href="#" class="btn is-checked" data-filter="*">Show all</a>
-        <a href="#" class="btn" data-filter=".ill">Illustration</a>
-        <a href="#" class="btn" data-filter=".photo">Photography</a>
-        <a href="#" class="btn" data-filter=".design">Design</a>
-      </div>
-      <div class="el gallery" id="isotope">
-        <div class="element design">
-          <div>
-            <a href="images/big1.jpg" class="gall-item"><img src="images/gal_img1.jpg" alt=""><span></span></a>
-        </div>
-        </div>
-        <div class="element photo">
-          <div>
-            <a href="images/big2.jpg" class="gall-item"><img src="images/gal_img2.jpg" alt=""><span></span></a>
-          </div>
-        </div>
-        <div class="element  photo">
-          <div>
-            <a href="images/big3.jpg" class="gall-item"><img src="images/gal_img3.jpg" alt=""><span></span></a>
-          </div>
-        </div>
-        <div class="clear"></div>
-        <div class="element ill">
-          <div>
-            <a href="images/big4.jpg" class="gall-item"><img src="images/gal_img4.jpg" alt=""><span></span></a>
-          </div>
-        </div>
-        <div class="element ill">
-          <div>
-            <a href="images/big5.jpg" class="gall-item"><img src="images/gal_img5.jpg" alt=""><span></span></a>
-          </div>
-        </div>
-        <div class="element design">
-          <div>
-            <a href="images/big6.jpg" class="gall-item"><img src="images/gal_img6.jpg" alt=""><span></span></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="clear"></div>
-  </div>
-</section>
-<section id="skills" class="page">
-  <div class="container_12">
-    <div class="grid_12">
-      <h2>Skills</h2>
-    </div>
-    <div class="grid_3">
-     <div style="clear:both"></div>
-        <div class="circle">
-          <input class="knob" data-angleOffset="0" value="93" data-fgColor="#2a797b" data-bgColor="#3a556e" data-width="226" data-height="226" data-thickness=.2>
-        </div>
-      <div class="text-3"><a href="#">Photoshop</a></div>
-    </div>
-    <div class="grid_3">
-      <div class="circle">
-          <input class="knob" data-angleOffset="0" value="82" data-fgColor="#2a797b" data-bgColor="#3a556e" data-width="226" data-height="226" data-thickness=.2>
-        </div>
-      <div class="text-3"><a href="#">HTML5/CSS3</a></div>
-    </div>
-    <div class="grid_3">
-      <div class="circle">
-          <input class="knob" data-angleOffset="0" value="90" data-fgColor="#2a797b" data-bgColor="#3a556e" data-width="226" data-height="226" data-thickness=.2>
-        </div>
-      <div class="text-3"><a href="#">Photography</a></div>
-    </div>
-    <div class="grid_3">
-      <div class="circle">
-          <input class="knob" data-angleOffset="0" value="89" data-fgColor="#2a797b" data-bgColor="#3a556e" data-width="226" data-height="226" data-thickness=.2>
-        </div>
-      <div class="text-3"><a href="#">PHP/MYSQL</a></div>
-    </div>
-    <div class="clear"></div>
-  </div>
-</section>
-<section id="experience" class="page">
-  <div class="container_12">
-    <div class="grid_12">
-      <h2>Work Experience</h2>
-      <div class="block-1">
-        <div class="grid_4 alpha">
-          <div class="block-1__left">
-            <h3>2012 - Present</h3>
-            <time  datetime="2014-01-01" class="text-2">March</time>
-            <div class="ta__right">
-              <div class="text-2 color1">Design Studio</div>
-              Lorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis.
+
+    <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(255,255,255,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);" data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);">
+        <nav id="primary-navigation" class="site-navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+
+                    <button type="button" class="navbar-toggle collapsed" data-target="#portfolio-perfect-collapse" aria-expanded="false" >
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                    <a href="#hero" class="site-logo"><img src="assets/img/logo.png" alt="logo"></a>
+
+                </div><!-- /.navbar-header -->
+
+                <div class="main-menu" id="portfolio-perfect-collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li class="page-scroll"><a href="#hero">Home</a></li>
+                        <li class="page-scroll"><a href="#about">About</a></li>
+                        <li class="page-scroll"><a href="#service">Service</a></li>
+                        <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
+                        <li class="page-scroll"><a href="#contact">Contact</a></li>
+                        
+                    </ul><!-- /.navbar-nav -->
+
+                </div><!-- /.navbar-collapse -->
+
             </div>
-          </div>
-        </div>
-        <div class="grid_8 omega">
-          <div class="block-2__right">
-            <h3>Job Description</h3>
-            <div class="text-2">Graphic Designer</div>
-            <p>Dorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing elit.  </p>
-            Oliquam nibh ante, egestas id dictum a, commodo luctus libero. Praesent faucibus malesuadar faucibusonec laoreet metus id laoreet malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elitllam consectetur orci sed nulla facilisis consequaturabitur vel lorem sit
-          </div>
-        </div>
-      </div>
-      <div class="block-1">
-        <div class="grid_4 alpha">
-          <div class="block-1__left">
-            <h3>2007 - 2012</h3>
-            <time  datetime="2014-01-01" class="text-2">April <span>August</span></time>
-            <div class="ta__right">
-              <div class="text-2 color1">Freelancer</div>
-              Lorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis.
-            </div>
-          </div>
-        </div>
-        <div class="grid_8 omega">
-          <div class="block-2__right">
-            <h3>Job Description</h3>
-            <div class="text-2">Graphic Designer</div>
-            <p>Lorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing elit.  </p>
-            Aliquam nibh ante, egestas id dictum a, commodo luctus libero. Praesent faucibus malesuadar faucibusonec laoreet metus id laoreet malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elitllam consectetur orci sed nulla facilisis consequaturabitur vel lorem sit
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="clear"></div>
-  </div>
-</section>
-<section id="testimonials" class="page">
-  <div class="container_12">
-    <div class="grid_12">
-      <h2 class="color2">Testimonials</h2>
-    </div>
-    <div class="grid_4">
-      <blockquote class="bq1">
-        <img src="images/page-img_2.jpg" alt="">
-        <div class="extra_wrapper">
-          <div class="text-2"><a href="#">Helen Thomson</a></div>
-          Korem ipsum dolor sittur dipiscing elit. In molliserat mattis neque facilisisltries wertolio dasererat
-        </div>
-      </blockquote>
-    </div>
-    <div class="grid_4">
-      <blockquote class="bq1">
-        <img src="images/page-img_3.jpg" alt="">
-        <div class="extra_wrapper">
-          <div class="text-2"><a href="#">Mark Grey</a></div>
-          Morem ipsum dolor sittur dipiscing elit. In molliserat mattis neque facilisisltries wertolio daserera
-        </div>
-      </blockquote>
-    </div>
-    <div class="grid_4">
-      <blockquote class="bq1">
-        <img src="images/page-img_4.jpg" alt="">
-        <div class="extra_wrapper">
-          <div class="text-2"><a href="#">Irma Wood</a></div>
-          Torem ipsum dolor sittur dipiscing elit. In molliserat mattis neque facilisisltries wertolio dasererum
-        </div>
-      </blockquote>
-    </div>
-    <div class="clear"></div>
-  </div>
-</section>
-<section id="contacts" class="page">
-  <div class="container_12">
-    <div class="grid_12">
-      <h2>Get in Touch</h2>
-    </div>
-    <div class="grid_6">
-      <form id="contact-form">
-          <div class="contact-form-loader"></div>
-          <fieldset>
-            <label class="name">
-              <input type="text" name="name" placeholder="Name*:" value="" data-constraints="@Required @JustLetters"  />
-              <span class="empty-message">*This field is required.</span>
-              <span class="error-message">*This is not a valid name.</span>
-            </label>
-            <label class="email">
-              <input type="text" name="email" placeholder="E-mail*:" value="" data-constraints="@Required @Email" />
-              <span class="empty-message">*This field is required.</span>
-              <span class="error-message">*This is not a valid email.</span>
-            </label>
-            <label class="phone">
-              <input type="text" name="phone" placeholder="Telephone:" value="" data-constraints="@Required @JustNumbers" />
-              <span class="empty-message">*This field is required.</span>
-              <span class="error-message">*This is not a valid phone.</span>
-            </label>
-            <label class="message">
-              <textarea name="message" placeholder="Message*:" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
-              <span class="empty-message">*This field is required.</span>
-              <span class="error-message">*The message is too short.</span>
-            </label>
-            <div>
-              <a href="#" class="btn" data-type="submit">submit </a>
-            </div>
-          </fieldset>
-          <div class="modal fade response-message">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                  <h4 class="modal-title">Modal title</h4>
+        </nav><!-- /.primary-navigation -->
+    </header><!-- /#header -->
+
+    <div id="hero" class="hero">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <h1>Alex Vidal</h1>
+                    <div class="page-scroll">
+                        <p class="job-title">Full Stack Developer</p>
+                        <a href="#contact" class="btn btn-fill ">Hire me</a>
+                        <div class="clearfix visible-xxs"></div>
+                        <a href="#portfolio" class="btn btn-border">Explore more</a>
+                    </div>
                 </div>
-                <div class="modal-body">
-                  You message has been sent! We will be in touch soon.
+            
+                <div class="col-md-6 text-right">
+                    <img src="assets/img/alex-vidal.png" alt="alex-vidal">
                 </div>
-              </div>
+
             </div>
+        </div>
+    </div><!-- /.hero -->
+
+    <main id="main" class="site-main">
+
+        <section id="about" class="site-section section-about text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <h2>About</h2>
+                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                        <p>Hello! I'm Alex, a full stuck developer, a Ruby enthusiast, and a guy slighty obsessed for code quality. Also I'm a co-founder of pykod.com. I’m currently available for freelance work. If you have a project that you want to get started or think you need my help with something, then get in touch.</p>
+                        <a href="http://www.grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf" class="btn btn-fill" target="_blank" download>Download my cv</a>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-about -->
+
+        <section class="site-section section-skills">
+            <div class="container">
+                <div class="text-center">
+                    <h3>My Skills</h3>
+                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4>Html/css</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="100"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                        <div class="skill">
+                            <h4>Python</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="75"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4>Javascript</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="82"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                        <div class="skill">
+                            <h4>Ruby</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="66"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4>Php</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="97"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                        <div class="skill">
+                            <h4>Java</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="45"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-skills -->
+
+        <section id="service" class="site-section section-services overlay text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>What i do</h3>
+                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="service">
+                            <img src="assets/img/front-end.svg" alt="Front End Developer">
+                            <h4>Front-end</h4>
+                            <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>
+                        </div><!-- /.service -->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="service">
+                            <img src="assets/img/back-end.svg" alt="Back End Developer">
+                            <h4>Back-end</h4>
+                            <p>Utilising php frameworks such as Zend or creating bespoke code, I've written services supporting thousands of users, including REST APIs, e-learning applications and more.</p>
+                        </div><!-- /.service -->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="service">
+                            <img src="assets/img/consultancy.svg" alt="Coding">
+                            <h4>Consultancy</h4>
+                            <p>As well as providing development services, I can also help you decide strategic roadmaps via consultancy services.</p>
+                        </div><!-- /.service -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-services -->
+
+        <section id="portfolio" class="site-section section-portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h3>My recent Works</h3>
+                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/portfolio-1.jpg" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Project Title</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/portfolio-2.jpg" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Project Title</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/portfolio-3.jpg" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Project Title</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/portfolio-4.jpg" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Project Title</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem4"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/portfolio-5.jpg" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Project Title</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem5"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/portfolio-6.jpg" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Project Title</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem6"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-portfolio -->
+
+        <section class="site-section section-counters text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12">
+                        <p class="counter start" data-to="10" data-speed="2000">0</p>
+                        <h4>Years Experience</h4>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <p class="counter start" data-to="120" data-speed="2000">0</p>       
+                        <h4>Projects Delivered</h4>      
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <p id="infinity" class="counter" data-from="0" data-to="1" data-speed="1000">0</p>
+                        <h4>Seconds on this site!<br>What are you waiting for?</h4>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.section-counters -->
+
+        <section id="contact" class="site-section section-form text-center">
+            <div class="container">
+
+                <h3>Contact</h3>
+                <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                <form>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <input type="text" name="name" class="form-control mt-x-0" placeholder="Name" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="email" name="email" class="form-control" placeholder="Email" required>   
+                        </div>
+                        <div class="col-sm-12">
+                            <textarea name="message" id="mesaage" class="form-control" placeholder="Message" required></textarea>
+                        </div>
+                    </div>
+                    <button href="#" class="btn btn-border" type="submit">Hire Me <span class="glyphicon glyphicon-send"></span></button>
+                </form>
+            </div>
+        </section><!-- /.section-form -->
+
+    </main><!-- /#main -->
+
+    <footer id="colophon" class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-xs-12">
+                    <a class="icon facebook-bg" href="#"><i class="icon-facebook"></i></a>
+                    <a class="icon twitter-bg" href="#"><i class="icon-twitter"></i></a>
+                    <a class="icon gplus-bg" href="#"><i class="icon-linkedin"></i></a>
+                    <a class="icon linkedin-bg" href="#"><i class="icon-gplus"></i></a>
+                </div>
+                <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3"><p class="copyright">2017. All Rights Reserved</p></div>
+                <div class="col-sm-4 col-xs-3">
+                    <div class="text-right page-scroll">
+                        <a class="icon icon-up-bg" href="#hero"><i class="icon-up"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!-- /#footer -->
+
+    <!-- Modals -->
+    <div id="portfolioItem1" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/portfolio-1.jpg" alt="">
           </div>
-        </form>
-      </div>
-      <div class="grid_6">
-        <p>24/7 support is on for all <a href="http://www.templatemonster.com/" rel="nofollow" class="color1">premium templates</a>.</p>
-        <p><a href="http://www.templatetuning.com/" rel="nofollow" class="color1">TemplateTuning</a> will help you with customization of the chosen <br> theme.</p>
-        The Company Name Inc. <br>
-        9870 St Vincent Place,<br>
-        Glasgow, DC 45 Fr 45.<br>
-        Telephone: +1 800 603 6035<br>
-        FAX: +1 800 889 9898<br>
-        E-mail: <a href="mailto:mail@demolink.org">mail@demolink.org</a>
-      </div>
-    <div class="clear"></div>
-  </div>
-  <div class="google-map-api">
-    <div id="map-canvas" class="gmap"></div>
-  </div>
-  <div class="container_12">
-    <div class="grid_12">
-      <div class="social-icons">
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-google-plus"></a>
-        <a href="#" class="fa fa-pinterest"></a>
-      </div>
-    </div>
-    <div class="clear"></div>
-  </div>
-</section>
-</section>
-<!--==============================
-              footer
-=================================-->
-</div>
-<footer id="footer">
-  <div class="container_12">
-    <div class="grid_12">
-      <div class="copyright"> &copy; <span id="copyright-year">2014</span>| <a href="#">Privacy Policy </a> <br>
-       Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com</a>
-      </div>
-    </div>
-  </div>
-  <div class="clear"></div>
-</footer>
-<a href="#" id="toTop" class="fa fa-chevron-up"></a>
-<script src="js/jquery.singlePageNav.min.js"></script>
-<script>
-  // Prevent console.log from generating errors in IE for the purposes of the demo
-  if ( ! window.console ) console = { log: function(){} };
-  // The actual plugin
-  $('.single-page-nav').singlePageNav({
-      offset: $('.single-page-nav').outerHeight(),
-      filter: ':not(.external)',
-      updateHash: true,
-      beforeStart: function() {
-          console.log('begin scrolling');
-      },
-      onComplete: function() {
-          console.log('done scrolling');
-      }
-  });
-</script>
-<script type="text/javascript">
-          google_api_map_init();
-          function google_api_map_init(){
-            var map;
-            var coordData = new google.maps.LatLng(parseFloat(40.646197), parseFloat(-73.9724068,14));
-            var styleArray = [
-    {
-        "featureType": "water",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#193341"
-            }
-        ]
-    },
-    {
-        "featureType": "landscape",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#2c5a71"
-            }
-        ]
-    },
-    {
-        "featureType": "road",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#29768a"
-            },
-            {
-                "lightness": -37
-            }
-        ]
-    },
-    {
-        "featureType": "poi",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#406d80"
-            }
-        ]
-    },
-    {
-        "featureType": "transit",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#406d80"
-            }
-        ]
-    },
-    {
-        "elementType": "labels.text.stroke",
-        "stylers": [
-            {
-                "visibility": "on"
-            },
-            {
-                "color": "#3e606f"
-            },
-            {
-                "weight": 2
-            },
-            {
-                "gamma": 0.84
-            }
-        ]
-    },
-    {
-        "elementType": "labels.text.fill",
-        "stylers": [
-            {
-                "color": "#ffffff"
-            }
-        ]
-    },
-    {
-        "featureType": "administrative",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "weight": 0.6
-            },
-            {
-                "color": "#1a3541"
-            }
-        ]
-    },
-    {
-        "elementType": "labels.icon",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "poi.park",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#2c5a71"
-            }
-        ]
-    }
-]
-            function initialize() {
-              var mapOptions = {
-                zoom: 13,
-                center: coordData,
-                scrollwheel: false,
-                styles: styleArray
-              }
-              var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-            google.maps.event.addDomListener(window, 'resize', function() {
-              map.setCenter(coordData);
-              var center = map.getCenter();
-            });
-          }
-            google.maps.event.addDomListener(window, "load", initialize);
-          }
-      </script>
-              <!--[if IE]><script type="text/javascript" src="js/excanvas.js"></script><![endif]-->
-      <script src="js/jquery.knob.js"></script>
-<script>
-  $(function($) {
-    $(".knob").knob({
-        change : function (value) {
-            //console.log("change : " + value);
-        },
-        release : function (value) {
-            //console.log(this.$.attr('value'));
-            console.log("release : " + value);
-        },
-        cancel : function () {
-            console.log("cancel : ", this);
-        },
-        /*format : function (value) {
-            return value + '%';
-        },*/
-        draw : function () {
-            // "tron" case
-            if(this.$.data('skin') == 'tron') {
-                this.cursorExt = 0.3;
-                var a = this.arc(this.cv)  // Arc
-                    , pa                   // Previous arc
-                    , r = 1;
-                this.g.lineWidth = this.lineWidth;
-                if (this.o.displayPrevious) {
-                    pa = this.arc(this.v);
-                    this.g.beginPath();
-                    this.g.strokeStyle = this.pColor;
-                    this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, pa.s, pa.e, pa.d);
-                    this.g.stroke();
-                }
-                this.g.beginPath();
-                this.g.strokeStyle = r ? this.o.fgColor : this.fgColor ;
-                this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, a.s, a.e, a.d);
-                this.g.stroke();
-                this.g.lineWidth = 2;
-                this.g.beginPath();
-                this.g.strokeStyle = this.o.fgColor;
-                this.g.arc( this.xy, this.xy, this.radius - this.lineWidth + 1 + this.lineWidth * 2 / 3, 0, 2 * Math.PI, false);
-                this.g.stroke();
-                return false;
-            }
-        }
-    });
-    // Example of infinite knob, iPod click wheel
-    var v, up=0,down=0,i=0
-        ,$idir = $("div.idir")
-        ,$ival = $("div.ival")
-        ,incr = function() { i++; $idir.show().html("+").fadeOut(); $ival.html(i); }
-        ,decr = function() { i--; $idir.show().html("-").fadeOut(); $ival.html(i); };
-    $("input.infinite").knob(
-                        {
-                        min : 0
-                        , max : 20
-                        , stopper : false
-                        , change : function () {
-                                        if(v > this.cv){
-                                            if(up){
-                                                decr();
-                                                up=0;
-                                            }else{up=1;down=0;}
-                                        } else {
-                                            if(v < this.cv){
-                                                if(down){
-                                                    incr();
-                                                    down=0;
-                                                }else{down=1;up=0;}
-                                            }
-                                        }
-                                        v = this.cv;
-                                    }
-                        });
-    });
-</script>
-<script src="js/isotop_ini.js"></script>
+          <div class="modal-body">
+            <h4 class="modal-title">Project title</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem2" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/portfolio-2.jpg" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Project title</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem3" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/portfolio-3.jpg" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Project title</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem4" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/portfolio-4.jpg" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Project title</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem5" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/portfolio-5.jpg" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Project title</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem6" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/portfolio-6.jpg" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Project title</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/skrollr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
+    <script src="assets/js/jquery.countTo.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  
 </body>
 </html>
